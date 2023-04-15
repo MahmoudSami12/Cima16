@@ -1,0 +1,161 @@
+body {
+  background-image: url(/imgs/0000.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+.logo {
+  width: 250px;
+  height: 70px;
+}
+.logo img {
+  margin: 10px 0 0 5px;
+}
+section {
+  border: hidden;
+  padding: 10px;
+  display: table;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+.navation {
+  padding: 5px 0;
+  border-bottom: 1px solid #fff;
+  overflow: hidden;
+}
+.navation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  float: left;
+}
+.navation ul li {
+  float: left;
+  padding: 5px;
+  margin: 2px;
+}
+.navation ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-style: italic;
+  transition: all 0.5s;
+}
+.navation ul li a[class="action"] {
+  text-decoration: underline;
+  color: #ad0000;
+}
+.navation ul li a:hover {
+  color: #ad0000;
+  text-decoration: underline;
+}
+.navation ul li a:active {
+  color: #fff;
+  transition: all 0s;
+  text-decoration: none;
+}
+.navation input {
+  float: right;
+  background-color: #282828;
+  border-radius: 3px;
+  border: 1px solid #282828;
+  padding: 6px;
+  color: #fff;
+  font-weight: 600;
+  width: 10%;
+  outline: none;
+  transition: 1s;
+}
+.navation input:hover {
+  transition: 0.6s;
+  width: 30%;
+}
+.navation input:focus {
+  width: 30%;
+}
+.movie-raw {
+  overflow: hidden;
+  border: hidden;
+  padding: 6px 0 0 0;
+}
+.movie-box {
+  height: 300px;
+  width: 160px;
+  float: left;
+  margin: 2px;
+  border: hidden;
+  border-radius: 10px;
+}
+.movie-image {
+  height: 80%;
+  border: hidden;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  max-width: 160px;
+  margin: 0 auto;
+}
+.movie-image img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+  vertical-align: middle;
+}
+.movie-image .info {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 100%;
+  padding: 2px 50px;
+  transition: 0.7s;
+  height: 20%;
+}
+.movie-image .info:hover {
+  height: 50%;
+}
+.movie-image img:hover {
+  transform: scale(1.1);
+}
+.movie-info {
+  height: 20%;
+  padding: 2px 0;
+  color: #fff;
+  border: hidden;
+  transition: 0.5s;
+}
+.movie-name {
+  font-weight: 700;
+  padding: 2px;
+  border: hidden;
+  font-style: italic;
+}
+.movie-name:hover {
+  color: #a3a3a3;
+}
+.movie-type {
+  font-weight: 500;
+  padding: 0px;
+  border: hidden;
+  font-style: italic;
+  color: #770000;
+  overflow: hidden;
+}
+.movie-type:hover {
+  color: #b20000;
+}
+::-webkit-scrollbar {
+  background-color: #262828;
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #000;
+  border-radius: 8px;
+}
+.copy-right {
+  text-align: center;
+  font-weight: 900;
+  font-size: larger;
+  color: #7a7a7a;
+}
